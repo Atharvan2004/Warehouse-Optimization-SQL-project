@@ -1,6 +1,7 @@
 # 📦 Warehouse Optimization & Inventory Analysis
 
-![Warehouse Optimization](assets/warehouse-banner.webp)
+![Warehouse Optimization](assets/warehouse.webp)
+
 
 > **A data-driven warehouse consolidation project using SQL and Power BI to identify an underperforming warehouse, optimize inventory levels, and evaluate the impact on shipping performance.**
 
@@ -62,19 +63,11 @@ Warehouse-Optimization/
 │
 ├── SQL/
 │   ├── warehouse_analysis.sql
-│   ├── inventory_optimization.sql
-│   └── shipping_analysis.sql
 │
 ├── PowerBI/
 │   └── warehouse_optimization.pbix
 │
 ├── assets/
-│   ├── warehouse-banner.webp
-│   ├── database-schema.png
-│   ├── warehouse-capacity.png
-│   ├── inventory-dashboard.png
-│   ├── warehouse-dashboard.png
-│   └── shipping-dashboard.png
 │
 └── docs/
     └── detailed-analysis.md
@@ -119,7 +112,7 @@ Orders
 
 This allows inventory levels to be compared against actual historical demand and shipping performance.
 
-![Database Schema](assets/database-schema.png)
+![Database Schema](assets/schema.png)
 
 ---
 
@@ -156,7 +149,7 @@ FROM warehouses;
 
 **Warehouse C (West)** operates at approximately **50% capacity**, making it significantly underutilized compared with the other facilities.
 
-![Warehouse Capacity](assets/warehouse-capacity.png)
+![Warehouse Capacity](assets/1.1.png)
 
 ---
 
@@ -398,8 +391,8 @@ This represents approximately **53% of Warehouse B's capacity**.
 
 Therefore, after reducing excess inventory, the remaining stock from the two warehouses can fit within Warehouse B's available capacity.
 
-![Inventory Before vs After](assets/inventory-before-after.png)
-
+![Inventory Before](assets/2.2.1.png)
+![Inventory After](assets/2.2.2.png)
 ---
 
 # 🚚 Step 5 — Shipping Performance Analysis
@@ -557,11 +550,11 @@ The dashboard converts the SQL findings into visual KPIs and actionable insights
 * Shipping performance by product line
 * Products associated with frequent delays
 
-![Power BI Dashboard](assets/inventory-dashboard.png)
+![Power BI Dashboard](assets/dashboard1.png)
 
-![Warehouse Analysis](assets/warehouse-dashboard.png)
+![Warehouse Analysis](assets/dashboard2.png)
 
-![Shipping Performance](assets/shipping-dashboard.png)
+![Shipping Performance](assets/dashboard3.png)
 
 ---
 
