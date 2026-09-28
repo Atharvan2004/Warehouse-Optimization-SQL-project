@@ -1,11 +1,6 @@
-# 📦 Warehouse Optimization & Inventory Analysis
+# Warehouse Optimization SQL Project
 
 ![Warehouse Optimization](assets/warehouse.webp)
-
-
-> **A data-driven warehouse consolidation project using SQL and Power BI to identify an underperforming warehouse, optimize inventory levels, and evaluate the impact on shipping performance.**
-
----
 
 ## 📌 Project Introduction
 
@@ -46,11 +41,9 @@ Analyze shipping times and delayed orders to ensure consolidation does not negat
 | Tool                 | Purpose                                                     |
 | -------------------- | ----------------------------------------------------------- |
 | **MySQL**            | Data exploration, joins, aggregations and business analysis |
-| **SQL**              | Inventory, warehouse and shipping analysis                  |
 | **Power BI**         | Interactive dashboards and data visualization               |
 | **DAX**              | Calculated measures and KPIs                                |
 | **GitHub**           | Documentation and project sharing                           |
-| **Coursera Dataset** | Source database                                             |
 
 ---
 
@@ -134,7 +127,7 @@ Final Recommendation
 
 ---
 
-# 🏭 Step 1 — Assess the Need to Close a Warehouse
+# 🏭 Step 1 - Assess the Need to Close a Warehouse
 
 ## 1. Warehouse Capacity Analysis
 
@@ -197,7 +190,7 @@ This makes Warehouse C particularly important to investigate because its invento
 
 ---
 
-# 📉 Step 2 — Analyze Inventory vs. Demand
+# 📉 Step 2 - Analyze Inventory vs. Demand
 
 Warehouse utilization alone is not enough to justify closure.
 
@@ -264,7 +257,7 @@ Based on the combined analysis:
 
 ---
 
-# 📦 Step 3 — Inventory Optimization
+# 📦 Step 3 - Inventory Optimization
 
 Closing a warehouse requires more than moving its inventory.
 
@@ -331,7 +324,7 @@ The analysis particularly highlighted excess stock within:
 
 ---
 
-# 🧮 Step 4 — Calculate Optimized Inventory
+# 🧮 Step 4 - Calculate Optimized Inventory
 
 To estimate the inventory requirement after optimization, target inventory levels were calculated using the demand ratio.
 
@@ -395,7 +388,7 @@ Therefore, after reducing excess inventory, the remaining stock from the two war
 ![Inventory After](assets/2.2.2.png)
 ---
 
-# 🚚 Step 5 — Shipping Performance Analysis
+# 🚚 Step 5 - Shipping Performance Analysis
 
 Warehouse consolidation should not be evaluated solely on storage costs.
 
@@ -520,35 +513,11 @@ The dashboard converts the SQL findings into visual KPIs and actionable insights
 
 ### 📍 Executive Overview
 
-* Total warehouses
-* Warehouse utilization
-* Recommended warehouse for closure
-* Inventory before vs. after optimization
-* Inventory reduction opportunities
-* Products requiring restocking
-* Capacity utilization
-
 ### 📦 Inventory Optimization
-
-* Current vs. recommended inventory
-* Overstocked products
-* Products requiring replenishment
-* Order-to-stock ratio
-* Product-line demand patterns
 
 ### 🏭 Warehouse Analysis
 
-* Inventory by warehouse
-* Capacity utilization
-* Warehouse-to-product-line distribution
-* Inventory concentration
-
 ### 🚚 Shipping Performance
-
-* Average shipping time
-* Delayed orders
-* Shipping performance by product line
-* Products associated with frequent delays
 
 ![Power BI Dashboard](assets/dashboard1.png)
 
@@ -574,7 +543,7 @@ The dashboard converts the SQL findings into visual KPIs and actionable insights
 
 ---
 
-# 💡 Final Recommendations
+# Final Recommendations
 
 ## 1. Consider Closing Warehouse C
 
@@ -628,75 +597,3 @@ Warehouse consolidation should be accompanied by shipping KPIs such as:
 * Warehouse-level lead time
 
 This ensures that cost savings do not come at the expense of customer experience.
-
----
-
-# 🧠 Business Impact
-
-The analysis demonstrates how relatively simple operational data can support a larger business decision.
-
-### Instead of asking:
-
-> **“Which warehouse has available space?”**
-
-The analysis asks:
-
-> **“Which warehouse contributes the least operational value relative to its cost and inventory requirements?”**
-
-By combining:
-
-**Warehouse Capacity + Inventory Demand + Inventory Optimization + Shipping Performance**
-
-the project moves from basic SQL analysis to a **data-driven operational recommendation**.
-
----
-
-# 📚 Skills Demonstrated
-
-### Technical
-
-`SQL` `MySQL` `Power BI` `DAX` `Data Analysis` `Data Visualization`
-
-### Analytics
-
-`Inventory Analysis` `Warehouse Optimization` `Demand Analysis` `KPI Design` `Operational Analytics` `Business Intelligence`
-
-### Business
-
-`Cost Reduction` `Capacity Planning` `Inventory Optimization` `Decision Support` `Supply Chain Analysis`
-
----
-
-# ⚠️ Limitations & Assumptions
-
-This analysis is based on historical data and should be treated as a **decision-support analysis rather than a guaranteed operational outcome**.
-
-Key assumptions include:
-
-* Historical order demand is representative of future demand.
-* The selected order-to-stock thresholds are analytical benchmarks rather than company-defined policies.
-* Warehouse capacity calculations assume that available capacity can be practically reorganized.
-* Shipping performance may be affected by factors beyond warehouse location.
-* Actual closure decisions should also consider fixed costs, transportation costs, labor, facility contracts and customer geography.
-
----
-
-# 🔗 Project Resources
-
-**Original Coursera Project:**
-[Analyze Data in a Model Car Database – Coursera](https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench)
-
-**Detailed Analysis:**
-[Google Docs – Detailed Project Analysis](https://docs.google.com/document/d/1Bc6u-P9brIQcbDQxHh-i1FPdWDVFv0Qd7Apdo7xDG8c/edit?usp=sharing)
-
----
-
-# 👨‍💻 Author
-
-**Atharvan Pohnerkar**
-
-Data Analytics | Product Analytics | SQL | Power BI
-
----
-
-> **⭐ If you found this project useful, feel free to explore the SQL analysis and Power BI dashboard in the repository.**
